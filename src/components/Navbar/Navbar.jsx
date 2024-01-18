@@ -5,10 +5,10 @@ const Navbar = () => {
   return ( 
     <div>
       {/* Left */}
-      <div className=''>
+      <div className='bg-red-300 w-40 '>
         <img src={mainLogo} 
-        alt='logo'
-        className='w-40'/>
+        alt='main-logo'
+        className=''/>
       </div>
       {/* Middle */}
       {/* Right */}
