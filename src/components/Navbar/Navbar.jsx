@@ -1,7 +1,7 @@
 
 import mainLogo from '../images/logo1.png'
 import { GiWorld } from 'react-icons/gi'
-import { IoMdMenu } from 'react-icons/io'
+// import { IoMdMenu } from 'react-icons/io'
 import { FaRegUser } from 'react-icons/fa'
 import { CiSearch } from 'react-icons/ci'
 
@@ -28,9 +28,10 @@ const Navbar = () => {
       <div className='flex items-center pr-3 font-semibold text-gray-600'>
         <p>Rent Your Home</p>
         <GiWorld className='mx-4'/>
-        <div className='flex items-center gap-4 border p-2 '>
-          <IoMdMenu />
-          <FaRegUser className=''/>
+        <div className='flex items-center border px-3 py-2 rounded-full gap-3'>
+          <p>Sign In</p>
+          {/* <IoMdMenu className='text-[19px]' /> */}
+          <FaRegUser className='text-[19px]'/>
         </div>
       </div>
     </div>
