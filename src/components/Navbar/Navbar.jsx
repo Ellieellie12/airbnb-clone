@@ -4,6 +4,7 @@ import { GiWorld } from 'react-icons/gi'
 // import { IoMdMenu } from 'react-icons/io'
 import { FaRegUser } from 'react-icons/fa'
 import { CiSearch } from 'react-icons/ci'
+import { FaHouseChimney } from 'react-icons/fa6'
 
 const Navbar = () => {
   return ( 
@@ -13,7 +14,7 @@ const Navbar = () => {
         <img src={mainLogo} alt='main-logo'className='object-cover -my-10'/>
       </div>
       {/* Middle */}
-      <div className='flex justify-center items-center relative shadow-sm shadow-gray-400 rounded-full'>
+      <div className='hidden lg:flex justify-center items-center relative shadow-sm shadow-gray-400 rounded-full'>
         <input type='search' placeholder='' className='py-2.5 w-[20rem] rounded-full outline-0'/>
         <div className='flex justify-between absolute w-full pr-16 pl-6 font-semibold text-gray-600'>
           <button className='w-full'>Place</button>
@@ -26,9 +27,15 @@ const Navbar = () => {
       </div>
       {/* Right */}
       <div className='flex items-center pr-3 font-semibold text-gray-600'>
-        <p>Rent Your Home</p>
-        <GiWorld className='mx-4'/>
-        <div className='flex items-center border px-3 py-2 rounded-full gap-3'>
+          <p className='text-[17px]'>Rent House</p>
+        
+
+        <div className='flex items-center mx-8 gap-1'>
+          <GiWorld className=''/>
+          <div className=''>EN</div>
+        </div>
+
+        <div className='flex items-center border px-3 py-2 rounded-full gap-2 shadow-lg shadow-gray-300 hover:bg-[#ee7c80] duration-100 ease-out'>
           <p>Sign In</p>
           {/* <IoMdMenu className='text-[19px]' /> */}
           <FaRegUser className='text-[19px]'/>
