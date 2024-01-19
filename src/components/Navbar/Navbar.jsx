@@ -15,22 +15,22 @@ const Navbar = () => {
       {/* Middle */}
       <div className='flex justify-center items-center relative shadow-sm shadow-gray-400 rounded-full'>
         <input type='search' placeholder='' className='py-2.5 w-[20rem] rounded-full outline-0'/>
-        <div className='absolute'>
-          <button>Place</button>
-          <button>Time</button>
-          <button>Group Size</button>
+        <div className='flex justify-between absolute w-full pr-16 pl-6 font-semibold text-gray-600'>
+          <button className='w-full'>Place</button>
+          <button className='border-l border-x px-6'>Time</button>
+          <button className='w-full text-gray-600/60 pl-2'>Group Size</button>
         </div>
         <div className='bg-[#ff5a60] p-2 rounded-full mr-2'>
-          <CiSearch className='font-bold'/>
+          <CiSearch className='text-white'/>
         </div>
       </div>
       {/* Right */}
-      <div className='flex items-center pr-3'>
-        <p>Airbnb Your Home</p>
-        <GiWorld />
-        <div className='flex items-center'>
+      <div className='flex items-center pr-3 font-semibold text-gray-600'>
+        <p>Rent Your Home</p>
+        <GiWorld className='mx-4'/>
+        <div className='flex items-center gap-4 border p-2 '>
           <IoMdMenu />
-          <FaRegUser />
+          <FaRegUser className=''/>
         </div>
       </div>
     </div>
