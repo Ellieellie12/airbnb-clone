@@ -5,15 +5,15 @@ import { IoMdMenu } from 'react-icons/io'
 import { FaRegUser } from 'react-icons/fa'
 const Navbar = () => {
   return ( 
-    <div className='flex justify-between items-center border-b bg-yellow-200'>
+    <div className='flex justify-between items-center border-b'>
       {/* Left */}
       <div className='h-20 flex'>
         <img src={mainLogo} alt='main-logo'className='object-cover -my-10'/>
       </div>
       {/* Middle */}
-      <div className='flex'>
-        <input type='search' placeholder=''/>
-        <div className=''>
+      <div className='flex relative shadow-sm shadow-gray-400 rounded-full'>
+        <input type='search' placeholder='' className='py-2.5 w-[20rem] rounded-full'/>
+        <div className='absolute'>
           <button>Place</button>
           <button>Time</button>
           <button>Group Size</button>
