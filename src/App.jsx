@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar/Navbar'
+import Filters from './components/Filters/Filters'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
       {/* Navbar */}
       <Navbar />
       {/* Filters */}
+      <Filters />
       {/* Rentals */}
       {/* Footer */}
     </div>
