@@ -6,15 +6,18 @@ import { RiAliensLine } from 'react-icons/ri'
 import { LuTreeDeciduous } from 'react-icons/lu'
 
 const Filters = () => {
+  const icons = [
+    {title:'Key', icon:<IoKeySharp />},
+    {title:'Mountain', icon: <PiMountainsDuotone />},
+    {title:'Hot', icon: <GiMineExplosion />},
+    {title:'Alien', icon: <RiAliensLine />},
+    {title:'Tree', icon: <LuTreeDeciduous />}
+  ]
   return ( 
     <div className='sm:mx-6 md:mx-10 lg:mx-12'>Filters</div>
   )
 }
 export default Filters
 
-{/* <IoKeySharp /> */}
-{/* <PiMountainsDuotone /> */}
-{/* <GiMineExplosion /> */}
-{/* <RiAliensLine /> */}
-{/* <LuTreeDeciduous /> */}
+
 
