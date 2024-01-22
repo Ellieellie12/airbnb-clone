@@ -18,8 +18,8 @@ const Filters = () => {
   ]
   return ( 
     <div className='sm:mx-6 md:mx-10 lg:mx-12'>
-      <div className='flex'>
-        {icons.map((object)=> (<Filter title={object.title} icon={object.icon} />
+      <div className='flex justify-center'>
+        {icons.map((object)=> (<Filter title={object.title} icon={object.icon} key={3} />
 
         ))}
       </div>
