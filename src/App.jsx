@@ -9,10 +9,12 @@ function App() {
       {/* Navbar */}
       <Navbar />
       {/* Filters */}
+      <div className='sm:mx-6 md:mx-10 lg:mx-12'>
       <Filters />
       {/* Rentals */}
       <Rentals />
       {/* Footer */}
+      </div>
     </div>
 
   
