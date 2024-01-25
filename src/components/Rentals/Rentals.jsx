@@ -20,7 +20,13 @@ const Rentals = () => {
 
   return (
     <div className='pt-3'>
-      {rentals.map((rental) => <Rental title={rental.title} image={rental.image} price={rental.price} key={4}/>)}
+      <div className='grid grid-cols-1 gap-4'>
+        {rentals.map((rental) => 
+        <Rental 
+          title={rental.title} 
+          image={rental.image} 
+          price={rental.price} key={4}/>)}
+      </div>
     </div>
   )
 }
