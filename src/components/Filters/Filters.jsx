@@ -10,15 +10,15 @@ import Filter from '../Filter/Filter'
 
 const Filters = () => {
   const icons = [
-    {title:'Key', icon:<IoKeySharp />},
+    {title:'New', icon:<IoKeySharp />},
+    {title:'Trending', icon: <GiMineExplosion />},
     {title:'Mountain', icon: <PiMountainsDuotone />},
-    {title:'Hot', icon: <GiMineExplosion />},
-    {title:'Alien', icon: <RiAliensLine />},
-    {title:'Tree', icon: <LuTreeDeciduous />}
+    {title:'Unique', icon: <RiAliensLine />},
+    {title:'Forest', icon: <LuTreeDeciduous />}
   ]
   return ( 
     <div className='sm:mx-6 md:mx-10 lg:mx-12'>
-      <div className='flex justify-center gap-4 mt-2'>
+      <div className='flex justify-start gap-4 mt-4 pl-3'>
         {icons.map((object)=> (<Filter title={object.title} icon={object.icon} key={3} />
 
         ))}
