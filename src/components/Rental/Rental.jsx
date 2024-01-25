@@ -1,8 +1,11 @@
 
 
-const Rental = () => {
+const Rental = ({title, image, price}) => {
   return (
-    <div>Rental</div>
+    <div className=''>
+      <img src={image} alt="" />
+
+    </div>
   )
 }
 
