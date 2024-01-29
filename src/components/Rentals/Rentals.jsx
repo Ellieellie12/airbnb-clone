@@ -1,14 +1,18 @@
 import houseone from '../images/house1.jpg'
+import housetwo from '../images/house2.jpg'
+import housethree from '../images/house3.jpg'
+import housefour from '../images/house4.jpg'
+import housefive from '../images/house5.jpg'
 import Rental from '../Rental/Rental'
 
 
 const Rentals = () => {
   const rentals = [
     {title:'Texas, USA', image: houseone, price:'1,541'},
-    {title:'Texas, USA', image: houseone, price:'1,541'},
-    {title:'Texas, USA', image: houseone, price:'1,541'},
-    {title:'Texas, USA', image: houseone, price:'1,541'},
-    {title:'Texas, USA', image: houseone, price:'1,541'},
+    {title:'Texas, USA', image: housetwo, price:'1,541'},
+    {title:'Texas, USA', image: housethree, price:'1,541'},
+    {title:'Texas, USA', image: housefour, price:'1,541'},
+    {title:'Texas, USA', image: housefive, price:'1,541'},
     {title:'Texas, USA', image: houseone, price:'1,541'},
     {title:'Texas, USA', image: houseone, price:'1,541'},
     {title:'Texas, USA', image: houseone, price:'1,541'},
