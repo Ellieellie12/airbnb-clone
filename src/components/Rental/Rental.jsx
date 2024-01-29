@@ -18,8 +18,11 @@ const Rental = ({title, image, price}) => {
       </div>
       {/* Description */}
       <div className=''> 
-        <p className='max-w-[17rem]'>
-        This is a rare find. It is usually fully booked 
+        <p className='max-w-[17rem] font-semibold text-[17px]'>
+        This is a rare find.
+        </p>
+        <p className='max-w-[17rem] font-semibold text-[17px]'>
+        Jan 28 - Aug 9
         </p>
       </div>
     </div>
