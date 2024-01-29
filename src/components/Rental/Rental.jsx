@@ -1,4 +1,4 @@
-import { FaRegStar } from 'react-icons/fa'
+// import { FaRegStar } from 'react-icons/fa'
 import { FaStar } from 'react-icons/fa'
 
 const Rental = ({title, image, price}) => {
@@ -33,7 +33,7 @@ const Rental = ({title, image, price}) => {
         </div>
         {/* Right  */}
         <div className='flex items-center space-x-1'>
-          <FaRegStar />
+        <FaStar />
           <p className='text-[15px]'>5.0</p>
         </div>
       </div>
