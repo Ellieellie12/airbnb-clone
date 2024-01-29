@@ -17,13 +17,17 @@ const Rental = ({title, image, price}) => {
         </div>
       </div>
       {/* Description */}
-      <div className=''> 
+      <div className='pt-3'> 
         <p className='max-w-[17rem] font-semibold text-[17px]'>
         This is a rare find.
         </p>
-        <p className='max-w-[17rem] font-semibold text-[17px]'>
+        <p className='max-w-[17rem] text-[16px] -mt-1 text-gray-500'>
         Jan 28 - Aug 9
         </p>
+        <p className='max-w-[17rem] font-semibold text-[17px]'>
+        ${price}
+        </p>
+  
       </div>
     </div>
   )
