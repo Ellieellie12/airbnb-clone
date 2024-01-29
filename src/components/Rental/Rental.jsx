@@ -1,4 +1,5 @@
 import { FaRegStar } from 'react-icons/fa'
+import { FaStar } from 'react-icons/fa'
 
 const Rental = ({title, image, price}) => {
   return (
@@ -17,7 +18,7 @@ const Rental = ({title, image, price}) => {
         </div>
       </div>
       {/* Description */}
-      <div className='pt-3 flex justify-between'>
+      <div className='pt-3 flex justify-between items-start'>
         {/* Left  */}
         <div className=''>
           <p className='max-w-[17rem] font-semibold text-[17px]'>
@@ -31,9 +32,9 @@ const Rental = ({title, image, price}) => {
           </p>
         </div>
         {/* Right  */}
-        <div className='flex items-center'>
+        <div className='flex items-center space-x-1'>
           <FaRegStar />
-          <p>5.0</p>
+          <p className='text-[15px]'>5.0</p>
         </div>
       </div>
     </div>
