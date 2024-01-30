@@ -22,6 +22,11 @@ const Rentals = () => {
     {title:'Texas, USA', image: houseseven, price:'1,541'},
     {title:'Texas, USA', image: houseeight, price:'1,541'},
     {title:'Texas, USA', image: housenine, price:'1,541'},
+    {title:'Texas, USA', image: houseten, price:'1,541'},
+    {title:'Texas, USA', image: housesix, price:'1,541'},
+    {title:'Texas, USA', image: houseseven, price:'1,541'},
+    {title:'Texas, USA', image: houseeight, price:'1,541'},
+    {title:'Texas, USA', image: housenine, price:'1,541'},
     {title:'Texas, USA', image: houseten, price:'1,541'}
 
 ]
