@@ -22,7 +22,7 @@ const Rental = ({title, image, price}) => {
         {/* Left  */}
         <div className=''>
           <p className='max-w-[17rem] font-semibold text-[17px]'>
-          This is a rare find.
+          This is a rare find on Renter.
           </p>
           <p className='max-w-[17rem] text-[16px] -mt-1 text-gray-500'>
           Jan 28 - Aug 9
