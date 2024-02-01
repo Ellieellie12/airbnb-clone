@@ -8,7 +8,7 @@ import { CiSearch } from 'react-icons/ci'
 
 const Navbar = () => {
   return ( 
-    <div className='border-b sticky top-0'> 
+    <div className='border-b sticky top-0 bg-white/[95%]'> 
       <div className='flex justify-between items-center sm:mx-6 md:mx-10 lg:mx-12'>
         {/* Left */}
         <div className='h-20 flex'>
