@@ -1,6 +1,7 @@
 import Navbar from './components/Navbar/Navbar'
 import Filters from './components/Filters/Filters'
 import Rentals from './components/Rentals/Rentals'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       {/* Rentals */}
       <Rentals />
       {/* Footer */}
+      <Footer />
       </div>
     </div>
 
