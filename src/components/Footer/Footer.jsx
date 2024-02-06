@@ -5,21 +5,17 @@ import { FaSnapchat } from 'react-icons/fa6'
 
 const Footer = () => {
   const socialicons = [
-  <FaXTwitter />, 
-  <FaInstagram />, 
-  <FaFacebookSquare />,
-  <FaSnapchat />
+  <FaXTwitter key={5}/>,
+  <FaInstagram key={6} />,
+  <FaFacebookSquare key={7}/>,
+  <FaSnapchat key={8}/>
 ]
   return ( 
-      <div className='flex items-center justify-center h-20 w-full bg-white border-t-2 shadow-t-lg shadow-gray-300 sticky bottom-0'>
+      <div className='flex items-center justify-center h-20 w-full bg-white border-t-2 shadow-t-lg shadow-gray-300 sticky bottom-0 gap-6'>
         {socialicons.map((socialicon) => (
-          <div className=''></div>
+          <div className='text-[30px] text-gray-600' >{socialicon}</div>
         ))}
       </div>
     )
 }
 export default Footer
-
-<FaXTwitter />
-<FaInstagram />
-<FaFacebookSquare />
